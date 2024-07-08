@@ -1,0 +1,85 @@
+
+<html>
+    <head>
+        <link rel="Stylesheet" href="style.css">
+    </head>
+    <body style="background-color: rgb(254, 248, 216);">
+        <div class="header">
+            <h1>Cricket</h1>
+            <nav>
+                <a id="home" href="index.html">Home</a>
+                <a id="learn" href="intro and rules.html">Learn More</a>
+            </nav>
+        </div>
+        <div style="margin-left: 420px;">
+        
+    <h3 style="margin-left: 290px;color: rgb(255, 68, 0);font-size: 20px;">Let's have a short Quiz</h3>
+    <p style="margin-left: 80px;"><b>Instructions: </b>This quiz has 5 questions and the maximum time of 2 min. After 2 min the window<br> will close automatically.After submitting the quiz, score will be displayed and the window will close.<br><b>The option that you select first will only be counted.</b></p>
+<form style="margin-left: 80px;font-size: 19px;border-style: groove;margin-right:350px;border-radius: 30px;">
+    <p><b>Q1. When did Cricket started to gain popularity in India?</b></p>
+    
+    <input type="radio" id="optn1" name="qs1" onclick="qss1()" >
+    <label for="q1">17th Century</label><br>
+    
+    <input type="radio" id="optn2" name="qs1" onclick="qss1()">
+    <label for="q1">18th Century</label><br>
+    
+    <input type="radio" id="optn3" name="qs1" onclick="qss1()" >
+    <label for="q1">19th Century</label><br>
+
+    <p><b>Q2. Which country won the T20 World Cup 2024?</b></p>
+    
+    <input type="radio" id="optnn1" name="q2" onclick="qss2()" >
+    <label for="q2">England</label><br>
+    
+    <input type="radio" id="optnn2" name="q2" onclick="qss2()">
+    <label for="q2">India</label><br>
+    
+    <input type="radio" id="optnn3" name="q2" onclick="qss2()">
+    <label for="q2">South Africa</label><br>
+
+    <p><b>Q3. What is the full form of "LBW"?</b></p>
+    
+    <input type="radio" id="optnnn1" name="q3" onclick="qss3()" >
+    <label for="q3">"Last Ball Wicket"</label><br>
+    
+    <input type="radio" id="optnnn2" name="q3" onclick="qss3()">
+    <label for="q3">"Leg Ball Wicket"</label><br>
+    
+    <input type="radio" id="optnnn3" name="q3" onclick="qss3()">
+    <label for="q3">"Leg Before wicket"</label><br>
+
+    <p><b>Q4. IPL is the which form of cricket league? </b></p>
+    
+    <input type="radio" id="optn41" name="q4" onclick="qss4()" >
+    <label for="q3">Limited Overs</label><br>
+    
+    <input type="radio" id="optn42" name="q4" onclick="qss4()">
+    <label for="q3">Twenty 20</label><br>
+    
+    <input type="radio" id="optn43" name="q4" onclick="qss4()">
+    <label for="q3">One day India(ODI)</label><br>
+
+    <p><b>Q5. The first official international cricket match was held in 1844 between which two nations? </b></p>
+    
+    <input type="radio" id="optn51" name="q5" onclick="qss5()" >
+    <label for="q3">India and England</label><br>
+    
+    <input type="radio" id="optn52" name="q5" onclick="qss5()">
+    <label for="q3">USA and canada</label><br>
+    
+    <input type="radio" id="optn53" name="q5" onclick="qss5()">
+    <label for="q3">South Africa and India</label><br><br><br>
+
+
+    <button onclick="submitQuiz()" style="margin-left: 250px;width: 120px;height:35px;border-radius: 10px;">Submit</button>
+
+    <p id="score" style="margin-left: 600px;"></p>
+
+</div>
+
+
+</form>
+<script src="script.js"></script>
+</body>
+</html>

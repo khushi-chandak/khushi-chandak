@@ -1,0 +1,77 @@
+nav{
+    margin-left: 1200px;
+    padding: 10px;
+    margin-top: -90px;
+    font-size: 20px;
+}
+
+h1{
+    color: rgb(225, 154, 11);
+    font-size: 70px;
+    margin-left: 50px;
+    margin-top: 5px;
+    text-shadow: 100;
+}
+#home{
+    padding-right: 30px;
+    color:rgb(246, 218, 161) ;
+}
+#learn{
+    color:rgb(246, 218, 161) ;
+}
+.header{
+    border-style: solid;
+    border-radius: 10px;
+    background-color: black;
+    border-color: white;
+}
+#start{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-left: 680px;
+    background-color: rgb(249, 215, 122);
+    
+}
+#line{
+    margin-left: 550px;
+    font-size: 20px;
+}
+h2{
+    
+    
+    margin-left: 630px;
+    font-size: 40px;
+
+}
+#intro{
+    
+margin-right: 250px;
+    margin-left: 250px;
+    font-size: 23px;
+    text-align: center;
+    
+}
+#two{
+    
+    margin-right: 250px;
+    margin-left: 250px;
+    font-size: 25px;
+    text-align: center;
+    border-style: solid;
+    padding: 10px;
+    border-radius: 30px;
+}
+#quiz body{
+    margin-left:"550px";
+}
+.footer{
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.615);
+  color: white;
+  text-align: center;
+}
